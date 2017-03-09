@@ -1,0 +1,18 @@
+{
+  "name": "9gag-menubar",
+  "version": "1.0.0",
+  "description": "Get random 9GAG page every time you open it",
+  "dependencies": {
+    "electron-prebuilt": "^0.36.12",
+    "menubar": "*"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.1.0",
+    "electron-prebuilt": "^0.36.0"
+  },
+  "main": "main.js",
+  "scripts": {
+    "build": "electron-packager . 9GAG --platform=darwin --arch=x64 --version=0.36.12 --icon=icon.icns",
+    "start": "electron ."
+  }
+}
