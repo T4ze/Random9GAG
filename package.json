@@ -7,7 +7,7 @@
     "menubar": "*"
   },
   "devDependencies": {
-    "electron-packager": "^5.1.0",
+    "electron-packager": "^14.0.6",
     "electron-prebuilt": "^0.36.0"
   },
   "main": "main.js",
